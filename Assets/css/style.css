@@ -105,13 +105,13 @@ p {
 }
 
 #gitHubIconBlack {
-    background-image: url("../images/github-icon_cyan.png");
+    background-image: url("../images/github-icon_black.png");
     background-size: contain;
     transition: opacity .3s ease;
 }
 
 #gitHubIconCyan {
-    background-image: url("../images/github-icon_black.png");
+    background-image: url("../images/github-icon_cyan.png");
     background-size: contain;
 }
 
@@ -119,20 +119,34 @@ p {
     opacity: 0;
 }
 
-#linkedinIconblack {
-    background-image: url("../images/linked_black.png");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#linkedinIconblue {
+#linkedinIconBlue {
     background-image: url("../images/linkedin_blue.png");
     background-size: contain;
+    transition: opacity .3s ease;
+    
+
 }
 
-#linkedIconblack:hover {
+#linkedinIconBlack {
+    background-image: url("../images/linkedin_black.png");
+    background-size: contain;
+    
+}
+
+#linkedinIconBlue:hover {
     opacity: 0;
 }
+
+#resume-icon {
+    background-image: url("../images/resume-icon_sm.png");
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
 
 
 p.clear {
