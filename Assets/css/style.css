@@ -1,17 +1,15 @@
 html,
 body {
-
     height: 100%;
     margin: 0;
 }
 
 body {
-
     font-size: 19px;
     line-height: 45px;
     display: flex;
     flex-direction: column;
-   
+
 }
 
 p {
@@ -21,7 +19,6 @@ p {
 
 
 .main-bio {
-
     padding-left: 50px;
     padding-right: 50px;
 
@@ -36,7 +33,6 @@ p {
 }
 
 #heading {
-
     padding-top: 30px;
     padding-left: 50px;
     color: #4aaaa5;
@@ -104,6 +100,11 @@ p {
     height: 60px;
 }
 
+.app {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 #gitHubIconBlack {
     background-image: url("../images/github-icon_black.png");
     background-size: contain;
@@ -123,14 +124,12 @@ p {
     background-image: url("../images/linkedin_blue.png");
     background-size: contain;
     transition: opacity .3s ease;
-    
-
 }
 
 #linkedinIconBlack {
     background-image: url("../images/linkedin_black.png");
     background-size: contain;
-    
+
 }
 
 #linkedinIconBlue:hover {
@@ -139,48 +138,38 @@ p {
 
 #resume-icon {
     background-image: url("../images/resume-icon_sm.png");
+    position: relative;
+    display: inline-block;
     width: 60px;
     height: 60px;
+ 
 }
 
-
-
-
-
+#resume-icon:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
 
 
 p.clear {
-
     clear: both;
-
 }
 
 .wrapper {
-
     min-height: 100%;
     margin-bottom: -50px;
-
-
-
-
 }
 
-
-
 .content {
-
     width: 50%;
     border: 2px solid #dddddd;
     margin: 20px 20px 215px 25%;
     padding-bottom: 35px;
     flex: 1 0 auto;
     background-color: #ffffff;
-
 }
 
 .footer {
-
-
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     flex-shrink: 0;
@@ -189,7 +178,6 @@ p.clear {
     padding-bottom: 10px;
     text-align: center;
     color: #cccccc;
-
 }
 
 .footer,
@@ -197,15 +185,11 @@ p.clear {
 
 }
 
-
 .simpleanchor {
-
     float: right;
     padding: 150px 10px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-right: 25px;
     color: #777777;
     text-decoration: none;
-
-
 }
