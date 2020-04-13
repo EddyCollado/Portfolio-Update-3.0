@@ -18,14 +18,10 @@ p {
 }
 
 
-.main-bio {
-    padding-left: 50px;
-    padding-right: 50px;
 
-}
+p.main-bio {
+    padding: 50px;
 
-#cocktailbtn {
-    padding-left: 10%;
 }
 
 #social-media {
@@ -44,6 +40,26 @@ p {
     padding-left: 60px;
 }
 
+.card.h-90 {
+    background-color: black;
+    border: 5px solid purple;
+    border-radius: 15px;
+}
+
+p.card-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+h5.card-title {
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+
 /* Appy CSS to the teal box with my name */
 #box1 {
 
@@ -56,6 +72,7 @@ p {
     text-align: center;
     line-height: 60px;
     padding-top: 15px;
+    padding-bottom: 15px;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -100,9 +117,10 @@ p {
     height: 60px;
 }
 
-.app {
-    margin-left: 20%;
-    margin-right: 20%;
+.btn-primary {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
 }
 
 #gitHubIconBlack {
@@ -167,6 +185,10 @@ p.clear {
     padding-bottom: 35px;
     flex: 1 0 auto;
     background-color: #ffffff;
+}
+
+.pulse {
+    z-index: 9999;
 }
 
 .footer {
